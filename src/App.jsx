@@ -4,6 +4,8 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 import AgentCTA from './components/Agentcta'
+import Testimonial from './components/testimonial'
+import Resultsection from './components/Resultssection'
 import StatementBlock from './components/StatementBlock'
 
 function App() {
@@ -13,6 +15,8 @@ function App() {
 
     <StatementBlock />
     <AgentCTA />
+    <Testimonial />
+    <Resultsection />
       
     </>
   )
