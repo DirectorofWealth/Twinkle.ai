@@ -6,12 +6,14 @@ import './App.css'
 import AgentCTA from './components/Agentcta'
 import Testimonial from './components/testimonial'
 import Resultsection from './components/Resultssection'
+import StatementBlock from './components/StatementBlock'
 
 function App() {
 
   return (
     <>
 
+    <StatementBlock />
     <AgentCTA />
     <Testimonial />
     <Resultsection />
