@@ -10,7 +10,7 @@ export default function AgentCTA() {
             text-center
             md:flex-row md:items-center md:px-8
             md:text-left
-            transition-transform duration-800 ease-out
+            transition-transform duration-[800] ease-out
                hover:-translate-x-1
                hover:scale-105
           "
