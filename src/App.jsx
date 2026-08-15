@@ -1,15 +1,17 @@
-import { useState } from 'react'
-import './App.css'
-import BuildWithAI from './components/BuildWithAI'
-import ClosingCounter from './components/ClosingCounter'
-import Footer from './components/Footer'
-import ResultsSection from './components/ResultsSection'
+import "./App.css";
+
+import StatementBlock from "./components/StatementBlock";
+import AgentCTA from "./components/Agentcta";
+import ResultsSection from "./components/ResultsSection";
+import BuildWithAI from "./components/BuildWithAI";
+import ClosingCounter from "./components/ClosingCounter";
+import Footer from "./components/Footer";
 
 function App() {
-
-
   return (
     <>
+      <StatementBlock />
+      <AgentCTA />
       <ResultsSection />
       <BuildWithAI />
       <ClosingCounter />
@@ -18,4 +20,4 @@ function App() {
   );
 }
 
-export default App
+export default App;
