@@ -1,11 +1,20 @@
 import testimonialBG from "../assets/testimonial-bg.jpg";
 import profileImage from "../assets/wealth_profile_640x640.png";
+import Badge from "./ui/Badge";
+// import LogoStrip from "./LogoStrip";
 import Button from "./ui/Button";
 
 
 export default function Testimonials() {
   return (
     <section className="relative min-h-[500px] w-full overflow-hidden">
+
+        <div>
+            <Badge className="mb-8 shadow">
+            <span className="h-1.5 w-1.5 rounded-sm bg-green-500 shadow-[0_0_8px_rgba(34,197,94,0.8)]"></span>
+                Testimonials
+            </Badge>
+        </div>
       
       {/* Background Image */}
       <img
@@ -65,6 +74,7 @@ export default function Testimonials() {
         </div>
 
       </div>
+      
     </section>
   );
 }
