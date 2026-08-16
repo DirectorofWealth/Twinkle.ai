@@ -1,3 +1,5 @@
+import Button from "./ui/Button"
+
 function Header(){
     return(
         <>
@@ -12,7 +14,7 @@ function Header(){
 
             <ul className="flex justify-align items-center gap-6">
                 <li><a href="">Sign In</a></li>
-                <li><a href="" className="bg-black rounded-full px-4 py-2 text-white">Get a Demo</a></li>
+                <li><Button>Get a Demo</Button></li>
             </ul>
         </nav>
         </>

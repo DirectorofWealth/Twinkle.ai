@@ -1,3 +1,5 @@
+import Button from "./ui/Button";
+
 function Hero(){
     return(
         <>
@@ -7,8 +9,9 @@ function Hero(){
             <p className="mt-6">Projects remeber. Agent think. Automations execute.</p>
             
                 <div className="flex justify-center gap-5 mt-6">
-                    <button className="bg-blue-900 text-white rounded-full px-2 py-2">Get Started</button>
-                    <button className="bg-black text-white rounded-full px-2 py-2">Download APP</button>
+                    <Button >Get started for free</Button>
+                    <Button className="bg-white! text-black! outline-1! outline-gray-700!">Download APP</Button>
+                    
                 </div>
         </div>
         </>
