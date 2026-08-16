@@ -1,16 +1,17 @@
+import Badge from "./ui/Badge";
+
+
 export default function StatementBlock() {
     return (
       <section className="w-full px-6 py-24 md:px-10 md:py-28">
         <div className="mx-auto max-w-4xl text-center">
   
           {/* Section Label */}
-          <div className="mb-8 inline-flex items-center gap-2 bg-gray-100 px-3 py-1.5 shadow">
+          <Badge className="mb-8 shadow">
             <span className="h-1.5 w-1.5 rounded-sm bg-green-500 shadow-[0_0_8px_rgba(34,197,94,0.8)]"></span>
-  
-            <span className="text-[9px] font-medium uppercase tracking-[0.12em] text-gray-500">
-              About Custom Kit
-            </span>
-          </div>
+
+            About Custom Kit
+      </Badge>
   
           {/* Main Statement */}
           <p className="text-[38px] font-medium leading-[1.08] tracking-[-0.035em] md:text-[48px] lg:text-[54px]">
