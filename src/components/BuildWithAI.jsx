@@ -52,7 +52,7 @@ export default function BuildWithAI() {
           </div>
 
           <button className="mt-8 rounded-full bg-black px-6 py-3 text-sm font-medium text-white transition hover:bg-gray-800">
-            Get Started - Feel Free
+            Get Started - It's Free
           </button>
         </div>
 
