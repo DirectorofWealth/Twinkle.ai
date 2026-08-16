@@ -4,8 +4,6 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 import AgentCTA from './components/Agentcta'
-import Testimonial from './components/testimonial'
-import Resultsection from './components/Resultssection'
 import StatementBlock from './components/StatementBlock'
 import Header from './components/Header'
 import Hero from './components/Hero'
@@ -14,6 +12,7 @@ import ClosingCounter from './components/ClosingCounter'
 import Footer from './components/Footer'
 import LogoStrip from './components/LogoStrip'
 import BuildWithAI from './components/BuildWithAI'
+import Testimonials from './components/Testimonials'
 
 
 
@@ -27,7 +26,7 @@ function App() {
     <LogoStrip />
     <StatementBlock />
     <AgentCTA />
-    {/* <Testimonial /> */}
+    <Testimonials />
     {/* <Resultsection /> */}
     <BuildWithAI />
     <ClosingCounter />
