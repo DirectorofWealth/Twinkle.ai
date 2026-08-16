@@ -13,6 +13,7 @@ import Footer from './components/Footer'
 import LogoStrip from './components/LogoStrip'
 import BuildWithAI from './components/BuildWithAI'
 import Testimonials from './components/Testimonials'
+import Results from './components/Results'
 
 
 
@@ -27,7 +28,7 @@ function App() {
     <StatementBlock />
     <AgentCTA />
     <Testimonials />
-    {/* <Resultsection /> */}
+    <Results />
     <BuildWithAI />
     <ClosingCounter />
     <Footer />
