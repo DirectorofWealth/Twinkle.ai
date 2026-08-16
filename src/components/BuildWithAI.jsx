@@ -1,3 +1,5 @@
+import Button from "./ui/Button";
+
 export default function BuildWithAI() {
   return (
     <section className="w-full px-6 py-20 md:px-10 lg:px-16">
@@ -50,10 +52,8 @@ export default function BuildWithAI() {
               </p>
             </div>
           </div>
-
-          <button className="mt-8 rounded-full bg-black px-6 py-3 text-sm font-medium text-white transition hover:bg-gray-800">
-            Get Started - It's Free
-          </button>
+          <Button>Get Started - It's Free </Button>
+          
         </div>
 
         <div className="relative flex min-h-[500px] items-center justify-center overflow-hidden rounded-3xl bg-gradient-to-br from-sky-200 via-yellow-100 to-orange-300 p-8">

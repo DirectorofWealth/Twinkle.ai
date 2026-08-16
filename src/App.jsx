@@ -13,6 +13,7 @@ import ProductShowcase from './components/Productshowcase'
 import ClosingCounter from './components/ClosingCounter'
 import Footer from './components/Footer'
 import LogoStrip from './components/LogoStrip'
+import BuildWithAI from './components/BuildWithAI'
 
 
 
@@ -28,6 +29,7 @@ function App() {
     <AgentCTA />
     {/* <Testimonial /> */}
     {/* <Resultsection /> */}
+    <BuildWithAI />
     <ClosingCounter />
     <Footer />
     
