@@ -4,8 +4,8 @@ export default function StatementBlock() {
         <div className="mx-auto max-w-4xl text-center">
   
           {/* Section Label */}
-          <div className="mb-8 inline-flex items-center gap-2 rounded-full bg-gray-100 px-3 py-1.5 shadow">
-            <span className="h-1.5 w-1.5 rounded-sm bg-green-500"></span>
+          <div className="mb-8 inline-flex items-center gap-2 bg-gray-100 px-3 py-1.5 shadow">
+            <span className="h-1.5 w-1.5 rounded-sm bg-green-500 shadow-[0_0_8px_rgba(34,197,94,0.8)]"></span>
   
             <span className="text-[9px] font-medium uppercase tracking-[0.12em] text-gray-500">
               About Custom Kit
@@ -20,15 +20,19 @@ export default function StatementBlock() {
             </span>{" "}
   
             <span className="text-gray-300">
-              even outside regular hours.
-            </span>{" "}
-  
-            <span className="text-gray-300">
-              By capturing customer details
+              even outside
             </span>{" "}
   
             <span className="text-black">
-              when no one is available
+            regular hours. By capturing customer details
+            </span>{" "}
+  
+            <span className="text-gray-300">
+              when no one 
+            </span>{" "}
+
+            <span className="text-black">
+              is available
             </span>
   
           </p>
