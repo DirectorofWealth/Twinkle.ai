@@ -1,3 +1,6 @@
+import Button from "./ui/Button";
+
+
 export default function AgentCTA() {
     return (
       <section className="w-full px-6 pb-24 md:px-10">
@@ -54,13 +57,11 @@ export default function AgentCTA() {
           </div>
   
           {/* CTA Button */}
-          <button
-            type="button"
-            className="shrink-0 rounded-full bg-black px-6 py-3 text-xs font-medium text-white transition-transform duration-200 ease-in-out 
-            hover:-translate-y-1  cursor-pointer ring focus:ring-1 focus:ring-gray-900 shadow-md"
-          >
-            Get Your Agent
-          </button>
+          
+          <Button>
+          Get Your Agent
+          </Button>
+
         </div>
       </section>
     );

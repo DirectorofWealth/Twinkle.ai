@@ -1,10 +1,10 @@
 const CLIENT_LOGOS = [
-  "Nova",
-  "Fieldstone",
-  "Aperture",
-  "Northwind",
-  "Vantage",
-  "Cascade",
+  "Fragon",
+  "Spotify",
+  "ripple",
+  "YVES ROCHER",
+  "F1",
+  "ROCNATIO",
 ];
 
 export default function LogoStrip() {
@@ -14,7 +14,7 @@ export default function LogoStrip() {
         {CLIENT_LOGOS.map((name) => (
           <span
             key={name}
-            className="text-lg font-semibold tracking-tight text-neutral-300 grayscale select-none"
+            className="text-lg font-semibold tracking-tight text-black grayscale select-none"
           >
             {name}
           </span>
