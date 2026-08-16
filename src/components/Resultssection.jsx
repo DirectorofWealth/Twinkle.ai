@@ -1,32 +1,22 @@
 function Resultsection(){
     return(
         <>
-        <section class="px-6 pb-20 pt-5">
+        
+        <section class="px-8 py-14">
 
-    <div class="mx-auto max-w-[1050px] text-center">
+<div class="mx-auto flex max-w-312 items-center
+            justify-between gap-8">
 
-      <div class="mb-10 inline-flex items-center gap-2 rounded-md
-                  bg-gray-100 px-4 py-2 text-xs font-semibold
-                  text-gray-500">
+  <span class="text-xl font-bold"> Fagron</span>
+  <span class="text-xl font-bold"> Spotify</span>
+  <span class="text-xl font-bold"> ripple</span>
+  <span class="text-xl font-bold"> YVES ROCHER</span>
+  <span class="text-xl font-bold italic">F1</span>
+  <span class="text-xl font-bold">ROCNATION</span>
 
-        . ABOUT CUSTOM KIT
+</div>
+</section>
 
-      </div>
-
-      <h1 class="text-5xl font-medium leading-[1.15] tracking-tight
-                 md:text-6xl">
-
-        Twinkle makes sure every call is acknowledged,
-        <span class="text-gray-400">even outside</span>
-         regular hours.
-        By capturing customer details
-        <span class="text-gray-400">when no one </span> is
-        available
-
-      </h1>
-
-    </div>
-  </section>
         </>
     )
 }
