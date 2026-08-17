@@ -10,7 +10,7 @@ import Hero from './components/Hero'
 import ProductShowcase from './components/Productshowcase'
 import ClosingCounter from './components/ClosingCounter'
 import Footer from './components/Footer'
-import LogoStrip from './components/LogoStrip'
+import LogoStrip from './components/Logostrip'
 import BuildWithAI from './components/BuildWithAI'
 import Testimonials from './components/Testimonials'
 import Results from './components/Results'
@@ -28,6 +28,7 @@ function App() {
     <StatementBlock />
     <AgentCTA />
     <Testimonials />
+    <LogoStrip />
     <Results />
     <BuildWithAI />
     <ClosingCounter />
