@@ -53,7 +53,7 @@ export default function Testimonials() {
           {/* Customer Details */}
           <div className="text-white">
             <p className="text-sm font-medium">
-              Wayne Grisham
+              Favor Ezinne
             </p>
 
             <p className="text-xs text-white/70">
