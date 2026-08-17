@@ -32,12 +32,12 @@ The finished page is organized into the following major sections:
 
 | Member | Section | Feature Branch |
 |---|---|---|
-| **Kidd** | Navbar | `feature/navbar` |
-| **Kidd** | Hero | `feature/hero` |
+| **Aloysius** | Navbar | `feature/navbar` |
+| **Aloysius** | Hero | `feature/hero` |
 | **Joseph** | Product Showcase | `feature/product-showcase` |
 | **Joseph** | Logo Strip | `feature/logo-strip` |
-| **Wealth** | Statement Block | `feature/statement` |
-| **Wealth** | Agent CTA | `feature/agent-cta` |
+| **Reverence** | Statement Block | `feature/statement` |
+| **Reverence** | Agent CTA | `feature/agent-cta` |
 | **Favour** | Testimonial | `feature/testimonial` |
 | **Favour** | Results | `feature/results` |
 | **Prince** | Build with AI | `feature/build-ai` |
@@ -50,7 +50,7 @@ The finished page is organized into the following major sections:
 
 ### Hero Section
 
-![Twinkle AI Hero](./screenshots/twinkle-ai-hero.png)
+![Twinkle AI Hero](public/hero-section.png)
 
 The hero section introduces Twinkle AI with the main headline:
 
@@ -60,7 +60,7 @@ It also includes the product rating badge, supporting statement, and primary/sec
 
 ### Build With AI Section
 
-![Twinkle AI Build With AI](./screenshots/twinkle-ai-build-with-ai.png)
+![Twinkle AI Build With AI](public/ai-build.png)
 
 The Build With AI section communicates how users can create, automate, and improve workflows using AI. It combines feature cards with a visual product mockup.
 
