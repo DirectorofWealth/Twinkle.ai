@@ -5,13 +5,13 @@ export default function ProductShowcase() {
     <section id="product" className="w-full bg-white px-6 py-16">
       <div className="mx-auto max-w-6xl">
         
-        <div className="relative overflow-hidden rounded-[2rem] bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-400 px-6 py-16 sm:px-12 sm:py-24">
+        <div className="relative overflow-hidden rounded-4xl bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-400 px-6 py-16 sm:px-12 sm:py-24">
 
           <div className="absolute left-6 top-6 flex items-center gap-2 rounded-full bg-white/90 px-4 py-2 text-xs font-medium text-neutral-800 shadow-sm backdrop-blur sm:left-8 sm:top-8">
             <Sparkles className="h-3.5 w-3.5" strokeWidth={2.5} />
             AI agent
           </div>
-
+          
           <div className="mx-auto w-full max-w-xl rounded-2xl bg-white p-4 shadow-2xl">
             <input
               type="text"
