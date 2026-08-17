@@ -56,7 +56,7 @@ export default function BuildWithAI() {
           
         </div>
 
-        <div className="relative flex min-h-[500px] items-center justify-center overflow-hidden rounded-3xl bg-gradient-to-br from-sky-200 via-yellow-100 to-orange-300 p-8">
+        <div className="relative flex min-h-125 items-center justify-center overflow-hidden rounded-3xl bg-gradient-to-br from-sky-200 via-yellow-100 to-orange-300 p-8">
         
           <div className="absolute -left-16 bottom-10 h-48 w-48 rounded-full bg-pink-300/70 blur-2xl" />
           <div className="absolute -right-16 top-10 h-56 w-56 rounded-full bg-blue-400/60 blur-2xl" />
